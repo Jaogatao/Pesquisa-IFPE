@@ -1,0 +1,16 @@
+:root{
+
+    --primary : #b6ffcb;
+    --primary200: #067b06;
+    --light : #FFFFFF;
+    --darkBlue : #18191F;
+    --black : #000000;
+ 
+
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    
+  }
