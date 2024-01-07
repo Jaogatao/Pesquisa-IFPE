@@ -11,12 +11,9 @@
 <body>
     <header>
         <img src="/Img/image-ifpe-removebg-preview.png" alt="">
-        <h1>PESQUISA DE OPNIÃO</h1>
+        <h1>PESQUISA DE OPINIÃO</h1>
       </header>
     <main>
-        <form action="">
-            
-        </form>
     <p>
         "O crescimento acelerado da urbanização, o turismo em grande escala e construções irregulares nas praias de Ipojuca têm desencadeado uma série de problemáticas ambientais, sociais e econômicas. Essas regiões costeiras, que são ecossistemas frágeis e altamente preservados, enfrentam um conjunto de desafios que ameaçam sua sustentabilidade a longo prazo.
         Agora, gostaríamos que você fizesse algumas escolhas entre diferentes cenários relacionados apresentados.
@@ -34,20 +31,23 @@
         <img src="/Img/Option3.png" alt="">
     </div>
 
-    <form action="">
+    <form>
         <span>INSIRA SEU NOME E SELECIONE UMA OPÇÃO</span>
             <label for="">
-                <input type="text" name="" id="" placeholder="Insira seu Nome">
+                <input type="text" name="nome" id="" placeholder="Insira seu Nome">
             </label>
         <label for="">
             <span>Dentre as Imagens Acima Escolha a melhor Opção</span>
-            <select name="" id="">
-                <option value="">Opção 1</option>
-                <option value="">Opção 2</option>
-                <option value="">Opção 3</option>
+            <select name="option" id="">
+                <option value="" disabled selected>Escolha uma opção</option>
+                <option value="Opção 1">Opção 1</option>
+                <option value="Opção 2">Opção 2</option>
+                <option value="Opção 3">Opção 3</option>
+
             </select>
         </label>
         <button type="submit">Enviar</button>
+       
     </form>
 
     <!-- <div class="option-1">
@@ -67,6 +67,6 @@
     </div> -->
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-
+    <script src="/Js/Script.js"></script>
 </body>
 </html>
